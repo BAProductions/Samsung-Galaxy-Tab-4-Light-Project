@@ -1,30 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote name="gitlab" fetch="https://gitlab.com/" />
+<manifest> 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" 
+           sync-c="true"
+           sync-j="4"
+		   clone-depth="1" />
 
+  <!-- Not Building On A Mac Or For An Emulator So This I Dont Need -->	  
+  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9"/>
+
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+
+  <remove-project name="platform/prebuilts/android-emulator" />
+
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6"/>
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86"/>
+
+  <remove-project name="platform/prebuilts/eclipse" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gdb/darwin-x86"/>
+  <remove-project name="platform/prebuilts/go/darwin-x86"/>
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+  
+  <!-- Samsung Samsung Service Mode Form MoKee Rom-->
+  <project path="packages/apps/SamsungServiceMode" name="MoKee/android_packages_apps_SamsungServiceMode" revision="mkn-mr1" remote="github" />
+
+  <!-- Samsung Galaxy Tab4 10.1 -->
+  <!-- Samsung Galaxy Tab4 10.1 Device Config-->
   <project name="mweb71/android_device_samsung_matissewifi" path="device/samsung/matissewifi" remote="gitlab" revision="cm-14.1" />
   <project name="mweb71/android_device_samsung_matisselte" path="device/samsung/matisselte" remote="gitlab" revision="cm-14.1" />
-  <project name="mweb71/android_device_samsung_matisse-common" path="device/samsung/matisse-common" remote="gitlab" revision="cm-14.1" />
-
-  <project name="mweb71/android_kernel_samsung_msm8226" path="kernel/samsung/msm8226" remote="gitlab" revision="cm-14.1-old" />
-  <project name="mweb71/android_device_samsung_msm8226-common" path="device/samsung/msm8226-common" remote="gitlab" revision="cm-14.1" />  
-
+  <!-- Samsung Galaxy Tab4 10.1 Device Common Config-->
+  <project name="mweb71/android_device_samsung_matisse-common" path="device/samsung/matisse-common" remote="gitlab" revision="cm-14.1-s34" />
+  <!-- Samsung Galaxy Tab4 10.1 Device Vendor Config-->
   <project name="mweb71/android_vendor_samsung_matissewifi" path="vendor/samsung/matissewifi" remote="gitlab" revision="cm-14.1" />
   <project name="mweb71/android_vendor_samsung_matisselte" path="vendor/samsung/matisselte" remote="gitlab" revision="cm-14.1" />
+  <!-- Samsung Galaxy Tab4 10.1 Device Vendor Common Config-->
   <project name="mweb71/android_vendor_samsung_matisse-common" path="vendor/samsung/matisse-common" remote="gitlab" revision="cm-14.1" />
+  
+  <!-- Samsung Kernal & Board Common MSM8226 Devices  -->
+  <project name="BAProductions/android_kernel_samsung_msm8226" path="kernel/samsung/msm8226" remote="github" revision="lineage-14.1" />
+  <project name="mweb71/android_device_samsung_msm8226-common" path="device/samsung/msm8226-common" remote="gitlab" revision="cm-14.1-s34" />
+
   <project name="mweb71/android_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="gitlab" revision="cm-14.1" />
   
-  <project name="BAProductions/vendor_extra" path="vendor/extra" remote="github" />
+  <!--< project name="BAProductions/vendor_extra" path="vendor/extra" remote="github" /> -->
+  
+  <!-- Lineage Depdence For All Samsung Devices  -->
   <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-14.1" />
-
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1" />
-  <!-- Not Needit For Know -->
+  
+  <!-- TWRP -->
   <!-- <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" revision="android-8.1" groups="pdk" /> -->  
   <!-- <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-7.1" /> --> 
-
+  
+  <!-- Busy Box Support -->
   <!-- android-8.1 doesn't play well with cm-14.1's toybox -->
   <project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" revision="cm-14.1" />
 </manifest>
