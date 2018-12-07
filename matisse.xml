@@ -36,7 +36,7 @@
   <project name="BAProductions/android_device_samsung_matissewifi" path="device/samsung/matissewifi" remote="github" revision="cm-14.1" />
   <project name="BAProductions/android_device_samsung_matisselte" path="device/samsung/matisselte" remote="github" revision="cm-14.1" />
   <!-- Samsung Galaxy Tab4 10.1 Device Common Config--> 
-  <project name="BAProductions/android_device_samsung_matisse-common" path="device/samsung/matisse-common" remote="gihub" revision="cm-14.1" />
+  <project name="BAProductions/android_device_samsung_matisse-common" path="device/samsung/matisse-common" remote="github" revision="cm-14.1" />
   <!-- Samsung Galaxy Tab4 10.1 Device Vendor -->
   <project name="mweb71/android_vendor_samsung_matissewifi" path="vendor/samsung/matissewifi" remote="gitlab" revision="cm-14.1" />
   <project name="mweb71/android_vendor_samsung_matisselte" path="vendor/samsung/matisselte" remote="gitlab" revision="cm-14.1" />
