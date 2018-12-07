@@ -29,23 +29,24 @@
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
   <!-- Samsung Samsung Service Mode Form MoKee Rom-->
-  <project path="packages/apps/SamsungServiceMode" name="MoKee/android_packages_apps_SamsungServiceMode" revision="mkn-mr1" remote="github" />
+  <project path="packages/apps/SamsungServiceMode" name="MoKee/android_packages_apps_SamsungServiceMode" remote="github" revision="mkn-mr1" />
 
   <!-- Samsung Galaxy Tab4 10.1 -->
-  <!-- Samsung Galaxy Tab4 10.1 Device Config-->
+  <!-- Samsung Galaxy Tab4 10.1 Device Configs-->
   <project name="BAProductions/android_device_samsung_matissewifi" path="device/samsung/matissewifi" remote="github" revision="cm-14.1" />
   <project name="BAProductions/android_device_samsung_matisselte" path="device/samsung/matisselte" remote="github" revision="cm-14.1" />
-  <!-- Samsung Galaxy Tab4 10.1 Device Common Config--> 
+  <!-- Samsung Galaxy Tab4 10.1 Device Common Configs-->
   <project name="BAProductions/android_device_samsung_matisse-common" path="device/samsung/matisse-common" remote="github" revision="cm-14.1" />
-  <!-- Samsung Galaxy Tab4 10.1 Device Vendor -->
-  <project name="mweb71/android_vendor_samsung_matissewifi" path="vendor/samsung/matissewifi" remote="gitlab" revision="cm-14.1" />
-  <project name="mweb71/android_vendor_samsung_matisselte" path="vendor/samsung/matisselte" remote="gitlab" revision="cm-14.1" />
+  <!-- Samsung Galaxy Tab4 10.1 Device Vendors -->
+  <project name="BAProductions/android_vendor_samsung_matissewifi" path="vendor/samsung/matissewifi" remote="github" revision="cm-14.1" />
+  <project name="BAProductions/android_vendor_samsung_matisselte" path="vendor/samsung/matisselte" remote="github" revision="cm-14.1" />
   <!-- Samsung Galaxy Tab4 10.1 Device Vendor Common-->
-  <project name="mweb71/android_vendor_samsung_matisse-common" path="vendor/samsung/matisse-common" remote="gitlab" revision="cm-14.1" />
+  <project name="BAProductions/android_vendor_samsung_matisse-common" path="vendor/samsung/matisse-common" remote="github" revision="cm-14.1" />
   <!-- Samsung MSM8226 Vendor Common-->
   <project name="BAProductions/android_vendor_samsung_msm8226-common" path="vendor/samsung/msm8226-common" remote="github" revision="cm-14.1" />
 
-  <!-- Samsung Kernal & Board Common MSM8226 Devices  -->
+  <!-- Samsung Kernal & Board Common For MSM8226 Devices  -->
+  <!-- Still Using The Old GitLab Samsung MSM8226 Kernal For Now -->
   <project name="mweb71/android_kernel_samsung_msm8226" path="kernel/samsung/msm8226" remote="gitlab" revision="cm-14.1-old" />
   <project name="BAProductions/android_device_samsung_msm8226-common" path="device/samsung/msm8226-common" remote="github" revision="cm-14.1" />
 
