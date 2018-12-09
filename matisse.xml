@@ -37,20 +37,17 @@
   <project name="BAProductions/android_device_samsung_matisselte" path="device/samsung/matisselte" remote="github" revision="cm-14.1" />
   <!-- Samsung Galaxy Tab4 10.1 Device Common Configs-->
   <project name="BAProductions/android_device_samsung_matisse-common" path="device/samsung/matisse-common" remote="github" revision="cm-14.1" />
+  <!-- Samsung MSM8226 Board Common For MSM8226 Devices -->
+  <project name="BAProductions/android_device_samsung_msm8226-common" path="device/samsung/msm8226-common" remote="github" revision="cm-14.1" />
   <!-- Samsung Galaxy Tab4 10.1 Device Vendors -->
   <project name="BAProductions/android_vendor_samsung_matissewifi" path="vendor/samsung/matissewifi" remote="github" revision="cm-14.1" />
   <project name="BAProductions/android_vendor_samsung_matisselte" path="vendor/samsung/matisselte" remote="github" revision="cm-14.1" />
   <!-- Samsung Galaxy Tab4 10.1 Device Vendor Common-->
   <project name="BAProductions/android_vendor_samsung_matisse-common" path="vendor/samsung/matisse-common" remote="github" revision="cm-14.1" />
-  <!-- Samsung MSM8226 Vendor Common-->
-  <project name="BAProductions/android_vendor_samsung_msm8226-common" path="vendor/samsung/msm8226-common" remote="github" revision="cm-14.1" />
-
-  <!-- Samsung Kernal & Board Common For MSM8226 Devices  -->
-  <!-- Still Using The Old GitLab Samsung MSM8226 Kernal For Now -->
+  <!-- Samsung Kernal Common For MSM8226 Devices -->
   <project name="mweb71/android_kernel_samsung_msm8226" path="kernel/samsung/msm8226" remote="gitlab" revision="cm-14.1-old" />
-  <project name="BAProductions/android_device_samsung_msm8226-common" path="device/samsung/msm8226-common" remote="github" revision="cm-14.1" />
 
-  <project name="mweb71/android_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="gitlab" revision="cm-14.1" />
+  <project name="BAProductions/android_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
 
   <project name="BAProductions/vendor_extra" path="vendor/extra" remote="github" revision="cm-14.1" />
 
@@ -64,7 +61,7 @@
   <!-- TWRP -->
   <!-- <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" revision="android-8.1" groups="pdk" /> -->  
   <!-- <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-7.1" /> -->  
-  <!-- <project name="BAProductions/twrp_device_samsung_matisse" path="device/samsung/matisse" remote="github" revision="twrp" /> --> 
+  <!-- <project name="BAProductions/twrp_device_samsung_matisse" path="device/samsung/matisse" remote="github" revision="twrp" /> -->
 
   <!-- Busy Box Support -->
   <!-- android-8.1 doesn't play well with cm-14.1's toybox -->
