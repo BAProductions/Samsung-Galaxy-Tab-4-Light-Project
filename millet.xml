@@ -38,29 +38,24 @@
 	<remove-project name="platform/prebuilts/go/darwin-x86"/>
 	<remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
-	<!-- Samsung Samsung Service Mode Form MoKee Rom-->
+	<!-- Samsung Samsung Service Mode Form MoKee Rom -->
 	<project path="packages/apps/SamsungServiceMode" name="MoKee/android_packages_apps_SamsungServiceMode" remote="github" revision="mkn-mr1" />
 	
-	<!-- Samsung Galaxy Tab4 10.1 -->
-	<!-- Samsung Galaxy Tab4 10.1 Device Configs -->
-	<project name="BAProductions/android_device_samsung_matissewifi" path="device/samsung/matissewifi" remote="github" revision="cm-14.1-ui-test" />
-	<project name="BAProductions/android_device_samsung_matisselte" path="device/samsung/matisselte" remote="github" revision="cm-14.1" />
-	<!-- Samsung Galaxy Tab4 10.1 Device Common Configs -->
-	<project name="BAProductions/android_device_samsung_matisse-common" path="device/samsung/matisse-common" remote="github" revision="cm-14.1-ui-test" />
-	
+	<!-- Missing Repo Samsung Device Tab4 8.0 (millet) -->
+	<!-- Samsung Galaxy Tab4 8.0 -->
+	<!-- Samsung Galaxy Tab4 8.0 Device Configs -->
+	<project name="BAProductions/android_device_samsung_milletwifi" path="device/samsung/milletwifi" remote="github" revision="cm-14.1" />
+	<!-- <project name="BAProductions/android_device_samsung_milletlte" path="device/samsung/milletlte" remote="github" revision="cm-14.1" /> -->
+	<!-- Samsung Galaxy Tab4 8.0 Device Common Configs -->
+	<project name="BAProductions/android_device_samsung_millet-common" path="device/samsung/millet-common" remote="github" revision="cm-14.1" />
+
 	<!-- Samsung MSM8226 Board Common For MSM8226 Devices -->
 	<project name="BAProductions/android_device_samsung_msm8226-common" path="device/samsung/msm8226-common" remote="github" revision="cm-14.1" />
-	
-	<!-- Samsung Galaxy Tab4 10.1 Device Vendors -->
-	<project name="BAProductions/android_vendor_samsung_milletwifi" path="vendor/samsung/milletwifi" remote="github" revision="cm-14.1" />
-	<project name="BAProductions/android_vendor_samsung_matissetlte" path="vendor/samsung/matissetlte" remote="github" revision="cm-14.1" />
-	<!-- Samsung Galaxy Tab4 10.1 Device Vendor Common -->
-	<project name="BAProductions/android_vendor_samsung_matisse-common" path="vendor/samsung/matisse-common" remote="github" revision="cm-14.1" />
-	
+
 	<!-- Samsung Galaxy Tab4 8.0 Device Vendors -->
 	<project name="BAProductions/android_vendor_samsung_matissewifi" path="vendor/samsung/matissewifi" remote="github" revision="cm-14.1" />
-	<!-- <project name="BAProductions/android_vendor_samsung_matisselte" path="vendor/samsung/matisselte" remote="github" revision="cm-14.1" /> -->
-	<!-- Samsung Galaxy Tab4 8.0 Device Vendor Common -->
+	<!-- <project name="BAProductions/android_vendor_samsung_matisselte" path="vendor/samsung/matisselte" remote="github" revision="cm-14.1" />  -->
+	<!-- Samsung Galaxy Tab4 8.0 Device Vendor Common-->
 	<project name="BAProductions/android_vendor_samsung_millet-common" path="vendor/samsung/millet-common" remote="github" revision="cm-14.1" />
 	
 	<!-- Samsung MSM8226 Board Common For MSM8226 Devices -->
