@@ -43,10 +43,10 @@
 	
 	<!-- Samsung Galaxy Tab4 10.1 -->
 	<!-- Samsung Galaxy Tab4 10.1 Device Configs -->
-	<project name="BAProductions/android_device_samsung_matissewifi" path="device/samsung/matissewifi" remote="github" revision="cm-14.1-ui-test" />
+	<project name="BAProductions/android_device_samsung_matissewifi" path="device/samsung/matissewifi" remote="github" revision="cm-14.1" />
 	<project name="BAProductions/android_device_samsung_matisselte" path="device/samsung/matisselte" remote="github" revision="cm-14.1" />
 	<!-- Samsung Galaxy Tab4 10.1 Device Common Configs-->
-	<project name="BAProductions/android_device_samsung_matisse-common" path="device/samsung/matisse-common" remote="github" revision="cm-14.1-ui-test" />
+	<project name="BAProductions/android_device_samsung_matisse-common" path="device/samsung/matisse-common" remote="github" revision="cm-14.1" />
 	
 	<!-- Missing Repo Samsung Device Tab4 8.0 (millet) -->
 	<!-- Samsung Galaxy Tab4 8.0 -->
