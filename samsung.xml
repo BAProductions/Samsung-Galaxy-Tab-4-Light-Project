@@ -56,17 +56,14 @@
 	<!-- Samsung Galaxy Tab4 8.0 Device Common Configs-->
 	<project name="BAProductions/android_device_samsung_millet-common" path="device/samsung/millet-common" remote="github" revision="cm-14.1" />
 	
-	<!-- Samsung MSM8226 Board Common For MSM8226 Devices -->
-	<project name="BAProductions/android_device_samsung_msm8226-common" path="device/samsung/msm8226-common" remote="github" revision="cm-14.1" />
-	
 	<!-- Samsung Galaxy Tab4 10.1 Device Vendors -->
-	<project name="BAProductions/android_vendor_samsung_milletwifi" path="vendor/samsung/milletwifi" remote="github" revision="cm-14.1" />
+	<project name="BAProductions/android_vendor_samsung_matiswifi" path="vendor/samsung/matiswifi" remote="github" revision="cm-14.1" />
 	<project name="BAProductions/android_vendor_samsung_matissetlte" path="vendor/samsung/matissetlte" remote="github" revision="cm-14.1" />
 	<!-- Samsung Galaxy Tab4 10.1 Device Vendor Common-->
 	<project name="BAProductions/android_vendor_samsung_matisse-common" path="vendor/samsung/matisse-common" remote="github" revision="cm-14.1" />
 	
 	<!-- Samsung Galaxy Tab4 8.0 Device Vendors -->
-	<project name="BAProductions/android_vendor_samsung_matissewifi" path="vendor/samsung/matissewifi" remote="github" revision="cm-14.1" />
+	<project name="BAProductions/android_vendor_samsung_milletwifi" path="vendor/samsung/milletwifi" remote="github" revision="cm-14.1" />
 	<!-- <project name="BAProductions/android_vendor_samsung_matisselte" path="vendor/samsung/matisselte" remote="github" revision="cm-14.1" /> -->
 	<!-- Samsung Galaxy Tab4 8.0 Device Vendor Common-->
 	<project name="BAProductions/android_vendor_samsung_millet-common" path="vendor/samsung/millet-common" remote="github" revision="cm-14.1" />
