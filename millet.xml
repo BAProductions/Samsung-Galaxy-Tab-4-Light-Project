@@ -45,7 +45,7 @@
 	<!-- Samsung Galaxy Tab4 8.0 -->
 	<!-- Samsung Galaxy Tab4 8.0 Device Configration -->
 	<project name="BAProductions/android_device_samsung_milletwifi" path="device/samsung/milletwifi" remote="github" revision="cm-14.1" />
-	<!-- Samsung Galaxy Tab4 8.0 Device Configration(matisselte Device Missing)-->
+	<!-- Missing Samsung Galaxy Tab4 8.0 Device Configration For matisselte -->
 	<!-- <project name="BAProductions/android_device_samsung_milletlte" path="device/samsung/milletlte" remote="github" revision="cm-14.1" /> -->
 	<!-- Samsung Galaxy Tab4 8.0 Device Common Configration -->
 	<project name="BAProductions/android_device_samsung_millet-common" path="device/samsung/millet-common" remote="github" revision="cm-14.1" />
@@ -55,7 +55,7 @@
 
 	<!-- Samsung Galaxy Tab4 8.0 Device Vendors -->
 	<project name="BAProductions/android_vendor_samsung_milletwifi" path="vendor/samsung/milletwifi" remote="github" revision="cm-14.1" />
-	<!-- Samsung Galaxy Tab4 8.0 Device Vendor(matisselte Device Missing)-->
+	<!-- Missing Samsung Galaxy Tab4 8.0 Device Vendor For matisselte -->
 	<!-- <project name="BAProductions/android_vendor_samsung_matisselte" path="vendor/samsung/matisselte" remote="github" revision="cm-14.1" />  -->
 	<!-- Samsung Galaxy Tab4 8.0 Device Vendor Common-->
 	<project name="BAProductions/android_vendor_samsung_millet-common" path="vendor/samsung/millet-common" remote="github" revision="cm-14.1" />
