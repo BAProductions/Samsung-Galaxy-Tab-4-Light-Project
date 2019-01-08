@@ -72,7 +72,7 @@
 	<project name="BAProductions/android_device_samsung_msm8226-common" path="device/samsung/msm8226-common" remote="github" revision="cm-14.1" />
 	
 	<!-- Samsung Kernal Common For MSM8226 Devices -->
-	<project name="mweb71/android_kernel_samsung_msm8226" path="kernel/samsung/msm8226" remote="gitlab" revision="cm-14.1-new" />
+	<project name="BAProductions/android_kernel_samsung_msm8226" path="kernel/samsung/msm8226" remote="github" revision="cm-14.1-new" />
 	
 	<project name="BAProductions/android_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
 	
