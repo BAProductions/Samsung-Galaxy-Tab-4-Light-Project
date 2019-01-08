@@ -43,23 +43,25 @@
 	
 	<!-- Missing Repo Samsung Device Tab4 8.0 (millet) -->
 	<!-- Samsung Galaxy Tab4 8.0 -->
-	<!-- Samsung Galaxy Tab4 8.0 Device Configs -->
+	<!-- Samsung Galaxy Tab4 8.0 Device Configration -->
 	<project name="BAProductions/android_device_samsung_milletwifi" path="device/samsung/milletwifi" remote="github" revision="cm-14.1" />
+	<!-- Samsung Galaxy Tab4 8.0 Device Configration(matisselte Device Missing)-->
 	<!-- <project name="BAProductions/android_device_samsung_milletlte" path="device/samsung/milletlte" remote="github" revision="cm-14.1" /> -->
-	<!-- Samsung Galaxy Tab4 8.0 Device Common Configs -->
+	<!-- Samsung Galaxy Tab4 8.0 Device Common Configration -->
 	<project name="BAProductions/android_device_samsung_millet-common" path="device/samsung/millet-common" remote="github" revision="cm-14.1" />
 
 	<!-- Samsung MSM8226 Board Common For MSM8226 Devices -->
 	<project name="BAProductions/android_device_samsung_msm8226-common" path="device/samsung/msm8226-common" remote="github" revision="cm-14.1" />
 
 	<!-- Samsung Galaxy Tab4 8.0 Device Vendors -->
-	<project name="BAProductions/android_vendor_samsung_matissewifi" path="vendor/samsung/matissewifi" remote="github" revision="cm-14.1" />
+	<project name="BAProductions/android_vendor_samsung_milletwifi" path="vendor/samsung/milletwifi" remote="github" revision="cm-14.1" />
+	<!-- Samsung Galaxy Tab4 8.0 Device Vendor(matisselte Device Missing)-->
 	<!-- <project name="BAProductions/android_vendor_samsung_matisselte" path="vendor/samsung/matisselte" remote="github" revision="cm-14.1" />  -->
 	<!-- Samsung Galaxy Tab4 8.0 Device Vendor Common-->
 	<project name="BAProductions/android_vendor_samsung_millet-common" path="vendor/samsung/millet-common" remote="github" revision="cm-14.1" />
 	
 	<!-- Samsung MSM8226 Board Common For MSM8226 Devices -->
-	<project name="BAProductions/android_device_samsung_msm8226-common" path="device/samsung/msm8226-common" remote="github" revision="cm-14.1" />
+	<project name="BAProductions/android_vendor_samsung_msm8226-common" path="vendor/samsung/msm8226-common" remote="github" revision="cm-14.1" />
 	
 	<!-- Samsung Kernal Common For MSM8226 Devices -->
 	<project name="BAProductions/android_kernel_samsung_msm8226" path="kernel/samsung/msm8226" remote="github" revision="cm-14.1-new" />
