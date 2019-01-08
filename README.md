@@ -22,6 +22,8 @@ Storage | 16GB
 MicroSD | Up to 64GB
 Camera  | 3 MP, 1536 x 2048 pixels
 
+**samsung.xml contains all msm8226 base Samsung Galaxy Tab 4'S & was built for develop who want to contribute to the project & have all 4 tablet at hand**
+
 Support thread available over on **XDA Developers**
 
 [Click Here](https://forum.xda-developers.com/tab-4/development/samsung-galaxy-tab-4-light-project-t3877643) get help with your device & the rom
